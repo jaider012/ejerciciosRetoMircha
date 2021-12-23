@@ -1,0 +1,21 @@
+{
+  "name": "primer_proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon index.js",
+    "lint":"npm run  lint",
+    "test": "jest --verbose",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.5",
+    "nodemon":"2.0.7"
+  },
+  "jest":{
+    "testEnvironment": "node"
+  }
+}
